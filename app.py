@@ -1,10 +1,12 @@
 from flask import Flask, render_template , request 
 from textblob import TextBlob
 from textblob import Word
+nltk.download('wordnet')
 import nltk
 #download model
 nltk.download('punkt')
 from textblob import Word
+
 
 
 nltk.download('averaged_perceptron_tagger')
